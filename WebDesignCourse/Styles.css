@@ -1,0 +1,72 @@
+﻿.row {
+    width: 1300px;
+}
+
+.column-left {
+    width: 50%;
+    height: 700px;
+    width: 650px;
+    float: left;
+}
+
+.column-right {
+    width: 50%;
+    height: 700px;
+    width: 650px;
+    float: right;
+}
+
+/*.Logo {
+    font-size: 30px;
+    font-family: Verdana;
+    color: #ffffff;
+    margin: 80px 150px;
+}*/
+
+a {
+    color: #ffffff;
+    margin: 200px 200px;
+    text-decoration: none;
+    background-color: #000 !important;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Verdana;
+    padding-left: 250px;
+    padding-top: 10px;
+    /*margin-bottom: 100px;  یا این یا پایینی */
+    /*margin: 100px 50px 200px 80px;*/
+}
+
+a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Verdana;
+    padding: 0px 55px;
+    /*padding-left: 50px;*/
+    margin-top: 5px;
+    /* line-height: 50px;  یا این بالایی */
+}
+
+.about-img {
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 150px;
+    border: none;
+    vertical-align: central;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 10pt;
+    font-family: Verdana;
+    /*line-height: 10px;*/
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+}
