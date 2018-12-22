@@ -131,13 +131,18 @@ th {
     text-align: center;
 }
 
-
-tr:nth-child(even) {
+.black{
     background-color: #fff;
     color: #000;
 }
 
-tr:nth-child(odd) {
+.white{
     background-color: #000;
     color: #fff;
+}
+
+
+input
+{
+    width:100%;
 }

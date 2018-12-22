@@ -28,8 +28,7 @@
                 <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
             </div>
         </div>
-
-
+        
         <div class="row">
             <div class="column-left" id="MyWork" style="background-color: aqua">
                 <h1>My Work</h1>
@@ -64,33 +63,33 @@
                 <p style="text-align: center">
                     A brif from my CV
                 </p>
-                <table>
-                    <tr style="height: 50px;">
+                <table >
+                    <tr class="black" style="height: 50px;">
                         <th class="th-year">Year</th>
                         <th class="th-title">Title</th>
                         <th class="th-where">Where</th>
                     </tr>
-                    <tr>
+                    <tr class="white">
                         <td>2012-2016</td>
                         <td>The rest is history</td>
                         <td>Lorem ispum</td>
                     </tr>
-                    <tr>
+                    <tr class="black">
                         <td>2009-2012</td>
                         <td>Started my own company</td>
                         <td>My Garage</td>
                     </tr>
-                    <tr>
+                    <tr class="white">
                         <td>2005-2009</td>
                         <td>Gegree in Bachlor of Design</td>
                         <td>London</td>
                     </tr>
-                    <tr>
+                    <tr class="black">
                         <td>2002-2005</td>
                         <td>Gegree in Bachlor of Business</td>
                         <td>MIY University- Australia</td>
                     </tr>
-                    <tr>
+                    <tr class="white">
                         <td>2002-2005</td>
                         <td>Gegree in Bachlor of Business</td>
                         <td>Stanford University</td>
@@ -101,7 +100,34 @@
 
         <div class="row">
             <div class="column-left" id="SwingBy" style="background-color: azure">
-                Contact
+                <h1>Contact</h1>
+                <p style="text-align: center">
+                    Send Message to us
+                </p>
+                <table>
+                    <tr>
+                        <td  style="width:20%">Name:</td>
+                        <td style="width:80%">
+                            <input type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td>Message:</td>
+                        <td>
+                            <input type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Send" />
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="column-right" id="Contact" style="background-color: #ff6a00">
             </div>
